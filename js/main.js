@@ -41,7 +41,7 @@ function ricorda (){
         points++;
         ricordato.push(choiceS)
 }
-}alert(points, ricordato,) 
+}alert(points, ricordato.length) 
 }
 
 
