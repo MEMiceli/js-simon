@@ -36,14 +36,13 @@ function ricorda (){
     let choiceS = Number(prompt("Inserire un numero"))
     choice.push(choiceS);
     console.log(choice);
-    
-    if( memory.includes(choiceS)){
+// stampare la quantità di numeri corretta e quali numeri corrispondono   
+        if( memory.includes(choiceS)){
         points++;
         ricordato.push(choiceS)
+        }
+    }console.log(points, ricordato) 
 }
-}alert(points, ricordato.length) 
-}
 
 
 
-// stampare la quantità di numeri corretta e quali numeri corrispondono
