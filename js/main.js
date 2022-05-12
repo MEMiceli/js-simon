@@ -6,3 +6,16 @@
 // * Pensate prima in italiano.
 // * Dividete in piccoli problemi la consegna.
 // * Individuate gli elementi di cui avete bisogno per realizzare il programma.
+
+
+// creare 5 numeri casuali con funzione mat random 
+
+// stampare numeri con un alert e farli sparire
+
+//  far partire un timeri di 30 (inizialmente 10 secondi)
+
+// inserire numeri uno alla volta fino ad averne 5
+
+//ciclo for per confrontare i numeri
+
+// stampare la quantità di numeri corretta e quali numeri corrispondono
