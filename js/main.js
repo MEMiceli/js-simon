@@ -7,12 +7,32 @@
 // * Dividete in piccoli problemi la consegna.
 // * Individuate gli elementi di cui avete bisogno per realizzare il programma.
 
+// function //
 
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+  }
+let memory = []
+
+let choice = []
 // creare 5 numeri casuali con funzione mat random 
-
+for (let i = 0; i < 5; i++) {
+   let memoryRandom = (getRndInteger(1, 10));
+    memory.push(memoryRandom)
+    console.log(memory)
+}
+alert(memory)
 // stampare numeri con un alert e farli sparire
-
+setTimeout(ricorda, 10 * 1000);
 //  far partire un timeri di 30 (inizialmente 10 secondi)
+
+ function ricorda (){
+    for (let i = 0; i < 5; i++){
+    let choiceS = Number(prompt("Inserire un numero"))
+    choice.push(choiceS);
+    console.log(choice);
+}
+}
 
 // inserire numeri uno alla volta fino ad averne 5
 
