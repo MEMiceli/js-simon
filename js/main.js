@@ -28,22 +28,19 @@ setTimeout(ricorda, 10 * 1000);
 
 
 let ricordato = []
-let points;
+let points = 0;
 
- function ricorda (){
+function ricorda (){
 // inserire numeri uno alla volta fino ad averne 5 e verificarne la presenza in lista  
     for (let i = 0; i < 5; i++){     
     let choiceS = Number(prompt("Inserire un numero"))
     choice.push(choiceS);
     console.log(choice);
     
-    if( memory.includes(choice)){
-        points =+1;
-        alert(points)
-    }else {
-        alert("Hai perso!")
-    }
-}
+    if( memory.includes(choiceS)){
+        points++;
+}alert(points)
+} 
 }
 
 
