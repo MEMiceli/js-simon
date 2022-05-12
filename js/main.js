@@ -31,17 +31,19 @@ let ricordato = []
 let points = 0;
 
 function ricorda (){
-// inserire numeri uno alla volta fino ad averne 5 e verificarne la presenza in lista  
+    // inserire numeri uno alla volta fino ad averne 5 e verificarne la presenza in lista  
     for (let i = 0; i < 5; i++){     
-    let choiceS = Number(prompt("Inserire un numero"))
-    choice.push(choiceS);
-    console.log(choice);
-// stampare la quantità di numeri corretta e quali numeri corrispondono   
+        let choiceS = Number(prompt("Inserire un numero"))
+        choice.push(choiceS);
+        console.log(choice);
+         // se il numero è corretto aggiungere un punto e inserire in lista ricordato
         if( memory.includes(choiceS)){
-        points++;
-        ricordato.push(choiceS)
+            points++;
+            ricordato.push(choiceS)
         }
-    }console.log(points, ricordato) 
+    }
+    // stampare la quantità di numeri corretta e quali numeri corrispondono  
+    console.log(points, ricordato) 
 }
 
 
