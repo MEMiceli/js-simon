@@ -39,8 +39,9 @@ function ricorda (){
     
     if( memory.includes(choiceS)){
         points++;
-}alert(points)
-} 
+        ricordato.push(choiceS)
+}
+}alert(points, ricordato,) 
 }
 
 
